@@ -5,9 +5,8 @@ body {
 }
 .container {
     background-color: white;
-    width: 400px;
-    height: 80vh;
-    margin: 3% auto;
+    max-width: 400px;
+    margin: 6% auto;
     text-align: center;
     padding-top: 30px;
     border-radius: 20px;
@@ -24,12 +23,12 @@ body {
     color: hsl(218, 44%, 22%);
 }
 .img {
-    width: 350px;
+    max-width: 350px;
     border-radius: 20px;
 }
 .text p {
     color: hsl(216, 15%, 48%);
-    width: 235px;
+    max-width: 235px;
 }
 @media screen and (max-width: 376px) {
     .container {
